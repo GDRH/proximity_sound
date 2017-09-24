@@ -4,8 +4,8 @@ Frecventa sunetului creste in acelasi timp cu apropierea corpului de senzor.
 
 # Lista componente
 
-* [arduino](https://www.robofun.ro/arduino_uno_v3) x 2
-* [senzor proximitate](https://www.robofun.ro/senzor_sharp_%20GP2D120XJ00F) x 2
-* [difuzor](https://www.robofun.ro/minidifuzor-brick) x 2
-* cablu USB x 2
-* cablu alimentare x 2
+* [arduino](https://www.robofun.ro/arduino_uno_v3)
+* [senzor proximitate](https://www.robofun.ro/senzor_sharp_%20GP2D120XJ00F)
+* [difuzor](https://www.robofun.ro/minidifuzor-brick)
+* cablu USB
+* cablu alimentare
