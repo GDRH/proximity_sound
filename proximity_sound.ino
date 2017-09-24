@@ -1,16 +1,15 @@
 void setup() {
   pinMode(13,OUTPUT);
 }
-
+ 
 void loop() {
+  delay(100);
   int valoareCitita=analogRead(A0);
-
-  /*  
-   *   aici trebuie editata valoarea citita
-   *   1. trebuie sa devina invers proportionala cu distanta
-   *   2. trebuie sa corespunda intotdeauna unei frecvente care poate fi auzita
-   */
-  
-  noTone(13);
-  tone(13,valoareCitita);
+ 
+  if(valoareCitita<100) {
+    noTone(13);
+  }
+  else {
+    tone(13,valoareCitita*8);
+  }
 }
