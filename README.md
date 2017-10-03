@@ -1,23 +1,21 @@
-<<<<<<< HEAD
-# proximity_sound
-#
-###	Proiectul Proximity Sound propune, prin folosirea unei placi de
-###	 dezvoltare Arduino Uno, unui senzor de distanta/proximitate si
-###	 a unui difuzor anuntarea printr-un sunet, aparitia unui corp.
-###	 Frecventa sunetului creste in acelasi timp cu apropierea corpului
-###	 de senzor.
 
+# proximity_sound 
+A suggestive way to be aware of the distance to an object
 
-=======
-# Proximity sound
-Proiectul Proximity Sound propune, prin folosirea unei placi de dezvoltare Arduino Uno, unui senzor de distanta/proximitate si a unui difuzor anuntarea printr-un sunet, aparitia unui corp.
-Frecventa sunetului creste in acelasi timp cu apropierea corpului de senzor.
+# Idea
+A software designed to get the distance to an object and output a sound.
 
-# Lista componente
+#Requirements & Implementation
+###Physical requirements
+* Arduino Uno with the USB cable
+* Proximity sensor
+* Arduino-compatible speaker
+* Laptop
 
-* [arduino](https://www.robofun.ro/arduino_uno_v3)
-* [senzor proximitate](https://www.robofun.ro/senzor_sharp_%20GP2D120XJ00F)
-* [difuzor](https://www.robofun.ro/minidifuzor-brick)
-* cablu USB
-* cablu alimentare
->>>>>>> 9c146b003b46c7b7debaba05bd4089b6bafe4fff
+###Software requirements
+* Arduino IDE (https:www.arduino.cc/en/Main/Software)
+* C++ compiler
+* A text editor 
+
+###Implementation
+A C program developed in the Arduino IDE takes the input from the proximity sensor and outputs through the speaker a sound, and it's frequency increases as the distance decreases. 
