@@ -13,8 +13,8 @@ A software designed to get the distance to an object and output a sound.
 * Laptop
 
 ## Software requirements
-* [Arduino IDE](https:www.arduino.cc/en/Main/Software)
-* C/C++ compiler
+* [Arduino IDE](https://www.arduino.cc/en/Main/Software)
+*( C/C++ compiler
 * A text editor 
 
 ## Implementation
